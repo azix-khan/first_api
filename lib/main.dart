@@ -1,5 +1,6 @@
 // import 'package:api_demo/example_five.dart';
-import 'package:api_demo/signUp_screen.dart';
+// import 'package:api_demo/signUp_screen.dart';
+import 'package:api_demo/upload_image.dart';
 // import 'package:api_demo/example_four.dart';
 // import 'package:api_demo/example_three.dart';
 // import 'package:api_demo/example_two.dart';
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const SignUpScreen(),
+      home: const UploadImageScreen(),
     );
   }
 }
